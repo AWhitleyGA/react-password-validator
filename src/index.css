@@ -3,3 +3,38 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.sign-up-form {
+  background: #aec6cf;
+  color: white;
+  padding: 30px;
+}
+
+.sign-up-form h2 {
+  text-align: center;
+}
+
+.sign-up-form span {
+  display: inline-block;
+  width: 180px;
+}
+
+.sign-up-form input {
+  width: 180px;
+}
+
+.sign-up-form button {
+  display: block;
+  margin: auto;
+}
+.alert {
+  color: red;
+}
